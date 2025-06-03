@@ -1,0 +1,51 @@
+.banner {
+    background-image: url('../images/img.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0px auto;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;
+}
+
+.banner-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.agendar {
+    background-color: #13f299;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.agendar:hover {
+    background-color: #0cc286;
+}

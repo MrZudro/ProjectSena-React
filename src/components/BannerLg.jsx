@@ -1,4 +1,4 @@
-import "./styles/style.css"
+import "./styles/style-service-bannerLg.css"
 
 export default function BannerLg() {
   return (
