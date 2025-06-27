@@ -1,15 +1,16 @@
 /* src/styles/AdmiClinico.css */
 
 /* Asegura que el html y el body ocupen el 100% de la altura y ancho del viewport */
-html,
+/* No se pueden usar estilos generales desde una clase o componenente. */
+/* html,
 body {
   width: 100%;
   height: 100%;
-  margin: 0; /* Elimina los márgenes predeterminados del body */
-  padding: 0; /* Elimina los rellenos predeterminados del body */
+  margin: 0;
+  padding: 0; 
   font-family: Arial, sans-serif;
-  overflow: hidden; /* Evita barras de desplazamiento no deseadas si el contenido no encaja perfectamente */  
-}
+  overflow: hidden;Evita barras de desplazamiento no deseadas si el contenido no encaja perfectamente  
+} */
 
 /* El div raíz de tu aplicación React (generalmente #root) también debe ser del 100% */
 #root {

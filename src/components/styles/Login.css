@@ -5,7 +5,7 @@
     justify-content: center;
     width: 600px;
     height: 600px;
-    margin: 20vh auto;
+    margin: 13vh auto;
     padding: 30px;
     background-color: #09b28e;
     box-shadow: 7px 8px 5px -3px rgba(0,0,0,0.4);
@@ -113,5 +113,69 @@ form{
 }
 
 .contBtn button:hover{
-    background-color: rgb(161, 133, 7);
+    background-color: rgb(15, 104, 82);
+    color: white;
+}
+.contentForm2{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+    width: 600px;
+    height: 650px;
+    margin: 13vh auto;
+    padding: 30px;
+    background-color: #09b28e;
+    box-shadow: 7px 8px 5px -3px rgba(0,0,0,0.4);
+}
+.contBtn2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.contBtn2 button{
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    height: 35px;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 1em auto; 
+}
+
+.contBtn2 button:hover{
+    background-color: rgb(15, 104, 82);
+    color: white;
+}
+
+.contLink{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 2vh 0 3vh;
+    justify-content: center;
+}
+
+
+.contLink{
+    font-size: 1.1em;
+}
+
+.miniTitle{
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    margin: 0 0 1vh;
+}
+
+.miniTitle i{
+    font-size: 1.1em;
+}
+hr{
+    border: 0;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 3vh;
 }
